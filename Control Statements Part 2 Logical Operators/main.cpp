@@ -11,6 +11,7 @@
 #include "Factorials.h"
 #include "CompoundInterestProgram.h"
 #include "TrianglePrinting.h"
+#include "BarChart.h"
 
 int main(int argc, const char * argv[]) {
 //   // Exercise 5.11
@@ -37,7 +38,10 @@ int main(int argc, const char * argv[]) {
     //trianglePrint.printTriangleC();
     //trianglePrint.printTriangleD();
 
-
+    //Exercise 5.16
+    BarChart barchart;
+    barchart.printBarChart();
+    
     
     return 0;
 }

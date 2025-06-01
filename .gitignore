@@ -1,0 +1,49 @@
+# Build and derived data
+build/
+DerivedData/
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Xcode-specific
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# macOS system files
+.DS_Store
+
+# CMake or Make build folders (if using)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Logs
+*.log
+
+# IDE backups
+*~ 
+*.swp
+*.swo
+
+# Crash reports
+*.crash
+
+# User-specific Xcode settings
+*.xcscheme
+*.xcuserstate
+*.xcuserdatad
+
+# Test output
+Testing/
+
+# Archive
+*.zip
+*.tar.gz
