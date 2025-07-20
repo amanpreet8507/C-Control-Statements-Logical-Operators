@@ -12,6 +12,7 @@
 #include "CompoundInterestProgram.h"
 #include "TrianglePrinting.h"
 #include "BarChart.h"
+#include "CalculatingSales.h"
 
 int main(int argc, const char * argv[]) {
 //   // Exercise 5.11
@@ -39,9 +40,13 @@ int main(int argc, const char * argv[]) {
     //trianglePrint.printTriangleD();
 
     //Exercise 5.16
-    BarChart barchart;
-    barchart.printBarChart();
+//    BarChart barchart;
+//    barchart.printBarChart();
+//
     
+    //Exercise 5.17
+    CalculatingSales calculatingSales;
+    calculatingSales.calculateTotalRetailValue();
     
     return 0;
 }
