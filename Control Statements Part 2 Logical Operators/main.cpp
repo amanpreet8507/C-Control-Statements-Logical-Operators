@@ -45,9 +45,26 @@ int main(int argc, const char * argv[]) {
 //
     
     //Exercise 5.17
-    CalculatingSales calculatingSales;
-    calculatingSales.calculateTotalRetailValue();
+//    CalculatingSales calculatingSales;
+//    calculatingSales.calculateTotalRetailValue();
+    
+    
+    // Exercise 5.18
+//    int i = 1, j = 2, k=3, m=2;
+//    cout << (i==1) << endl;
+//    cout << (j==3) << endl;
+//    cout << (i >= 1 && j < 4) << endl;
+//    cout << (m<=99 && k < m) << endl;
+//    cout << (j>=i &&  k ==m) << endl;
+//    cout << (k+m < j || 3-j>=k) << endl;
+//    cout << (!m) << endl;
+//    cout << (!(j-m)) << endl;
+//    cout << (!(k>m)) << endl;
+
+    // Exercise 5.19
     
     return 0;
+    
+    
 }
 
