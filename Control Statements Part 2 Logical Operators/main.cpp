@@ -13,6 +13,7 @@
 #include "TrianglePrinting.h"
 #include "BarChart.h"
 #include "CalculatingSales.h"
+#include "CalculateValueOfPie.h"
 
 int main(int argc, const char * argv[]) {
 //   // Exercise 5.11
@@ -62,7 +63,8 @@ int main(int argc, const char * argv[]) {
 //    cout << (!(k>m)) << endl;
 
     // Exercise 5.19
-    
+    CalculateValueOfPie calculateValueOfPie;
+    calculateValueOfPie.calculatePie();
     return 0;
     
     
